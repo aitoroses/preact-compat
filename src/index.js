@@ -1,5 +1,6 @@
 import PropTypes from 'prop-types';
 import { render as preactRender, cloneElement as preactCloneElement, createRef, h, Component as PreactComponent, options } from 'preact';
+import { useCallback, useContext, useEffect, useLayoutEffect, useMemo, useReducer, useRef, useState } from 'preact/hooks';
 
 const version = '15.1.0'; // trick libraries to think we are react
 
